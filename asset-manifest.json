@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Gifos/static/css/main.7c969195.chunk.css",
+    "main.css": "/Gifos/static/css/main.b96dcade.chunk.css",
     "main.js": "/Gifos/static/js/main.d51195df.chunk.js",
     "main.js.map": "/Gifos/static/js/main.d51195df.chunk.js.map",
     "runtime-main.js": "/Gifos/static/js/runtime-main.7b51ad5c.js",
@@ -8,7 +8,7 @@
     "static/js/2.6e655412.chunk.js": "/Gifos/static/js/2.6e655412.chunk.js",
     "static/js/2.6e655412.chunk.js.map": "/Gifos/static/js/2.6e655412.chunk.js.map",
     "index.html": "/Gifos/index.html",
-    "static/css/main.7c969195.chunk.css.map": "/Gifos/static/css/main.7c969195.chunk.css.map",
+    "static/css/main.b96dcade.chunk.css.map": "/Gifos/static/css/main.b96dcade.chunk.css.map",
     "static/js/2.6e655412.chunk.js.LICENSE.txt": "/Gifos/static/js/2.6e655412.chunk.js.LICENSE.txt",
     "static/media/icon-search-mod-noc.ecc2b197.svg": "/Gifos/static/media/icon-search-mod-noc.ecc2b197.svg",
     "static/media/icon-search.657bf939.svg": "/Gifos/static/media/icon-search.657bf939.svg",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.7b51ad5c.js",
     "static/js/2.6e655412.chunk.js",
-    "static/css/main.7c969195.chunk.css",
+    "static/css/main.b96dcade.chunk.css",
     "static/js/main.d51195df.chunk.js"
   ]
 }
