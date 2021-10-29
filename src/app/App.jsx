@@ -19,7 +19,7 @@ function App() {
   const [isSearching, setIsSearching] = useState(false);
   //answer messege after searching state
   const [answer, setAnswer] = useState(false);
-  
+
   //shows the inicial top trending gifs
   useEffect(() => {
     request("/trending")
@@ -60,8 +60,13 @@ function App() {
           setValue={setValue}
           btnDisabled={isSearching || value === ''}
           setIsSearching={setIsSearching}
-          isSearching={isSearching}
         />
+        {!answer ?
+          <p>Realiza tu busqueda</p> :
+          !gifsList.length ?
+            <p>No se encuentran resultados :(</p> :
+            <p>Resultado de tu busqueda </p>
+        }
         {isLoading ?
           <span>Cargando....</span> :
           <div className='results-grid'>

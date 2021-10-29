@@ -99,6 +99,7 @@ h1{
   }
   .search{
     height: 34px;
+    width: 80%;
     padding-left: 10px;
     font-size: 13px;
   }
