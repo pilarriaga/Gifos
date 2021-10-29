@@ -1,0 +1,21 @@
+.gif-img {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  margin: 41px 23.5px 0;
+  border: 1px solid #BBBBBB;
+}
+
+.gif-img:hover{
+  cursor: pointer;
+  opacity: 70%;
+}
+
+@media screen and (max-width: 425px){
+  .gif-img {
+    height: 170px;
+    width: 170px;
+    margin: 1px;
+  }
+}
+

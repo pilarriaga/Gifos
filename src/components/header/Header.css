@@ -1,0 +1,23 @@
+header{
+  height: 93px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 26px 5%;
+}
+
+img {
+  height: 59.11px;
+  width: 59.11px;
+}
+
+@media screen and (max-width: 425px){
+  header{
+    height: 50px;
+  }
+
+  img {
+    height: 39.11px;
+    width: 39.11px;
+  }
+}

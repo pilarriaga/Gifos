@@ -1,0 +1,113 @@
+.main-section{
+  height:300px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 70px;
+}
+h1{
+  font-size: 36px;
+  font-weight: 400;
+  color: #572EE5;
+  text-align: center;
+}
+.s-line{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.search{
+  width: 55%;
+  height: 52px;
+  border-radius: 61px 0 0 61px;
+  border: 1px solid #121212;
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+
+.dark .search-btn {
+  background-color: #572EE5;
+}
+
+.dark .search {
+  border-color:#FFFFFF;
+}
+
+.friends-logo{
+  width: 399px;
+  height: 190px;
+}
+.s-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.dark h1 {
+  color: #FFFFFF;
+  width: 100%;
+}
+
+.list{
+  display: flex;
+  align-items: center;
+  height: 46px;
+
+}
+
+.list:hover{
+  background-color: rgba(128, 128, 128, 0.308);
+}
+
+.data.show{
+  width: 65%;
+  position: absolute;
+  top: 60px;
+  border-radius: 20px;
+  border: #572EE5 0.5px solid;
+  background-color: #FFFFFF;
+  display: block;
+  cursor: pointer;
+  overflow: hidden;
+}
+.dark .data.show{
+  background-color: #373737;
+  color: #FFFFFF
+}
+
+.dark .list:hover {
+  color: #373737;
+  background-color:#FFFFFF ;
+} 
+.data.no-show {
+  display: none;
+}
+.list img{
+  margin: 8px;
+}
+@media screen and (max-width: 425px){
+  .main-section{
+    height:170px;
+    margin-bottom: 30px;
+  }
+  h1{
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .search{
+    height: 34px;
+    padding-left: 10px;
+    font-size: 13px;
+  }
+  .search-btn {
+    height: 34px;
+    width: 15%;
+  }
+  .friends-logo{
+    width: 200px;
+    height: 100px;
+  }
+}
